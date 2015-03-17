@@ -4,7 +4,7 @@ clear all;
 % constants
 holdout_pct = 0.3;       % train percent
 net_layers  = 10;        % # layers in nnet
-prune_data = inf;        % shrink dataset? set to inf to not
+prune_data  = inf;        % shrink dataset? set to inf to not
 
 % load data
 pos = csvread('../Tyrosine/positive_train.csv',1,0);   % load positive
